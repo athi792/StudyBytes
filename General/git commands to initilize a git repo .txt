@@ -1,0 +1,10 @@
+cd path\to\your-folder
+git init
+git add folder-name
+---Adds a specific folder and its contents.
+git add .
+--- Adds all files and folders in the current directory and subdirectories.
+git commit -m "Initial commit with folder content"
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+eg.https://github.com/athi792/Microfrontend--angular
+git push -u origin main
